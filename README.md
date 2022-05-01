@@ -1,6 +1,6 @@
 # API's:
 
-## 1.http://localhost:4040/api/auth/registration:
+## 1. http://localhost:4040/api/auth/registration:
 
 ### This api create user with 4 parameters:
 
@@ -19,7 +19,7 @@ It's response : `'success'` if user registration successfull otherwise response 
 
 if any error occurred.
 
-## 2.http://localhost:4040/api/auth/login:
+## 2. http://localhost:4040/api/auth/login:
 
 ### This api create user with 2 parameters:
 
