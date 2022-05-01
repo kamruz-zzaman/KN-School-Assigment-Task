@@ -7,12 +7,15 @@ const mongoose = require('mongoose');
 const cors = require("cors");
 require("dotenv").config();
 
+
 app.use(bodyParser.urlencoded({ extended: false }))
 
 // parse application/json
 app.use(bodyParser.json())
 app.use(cors());
 app.use(express.json());
+
+
 // IMPORT ROUTES 
 const routes = require('./routes');
 
@@ -23,7 +26,7 @@ app.get('/',(req,res)=>{
 });
 
 app.use('/api/auth/', routes.auth);
-app.use('/api/user/', routes.user);
+app.use('/api/assessment/', routes.assessment);
 
 const PORT = process.env.PORT || 8080;
 
