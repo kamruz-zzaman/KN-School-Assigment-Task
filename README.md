@@ -1,13 +1,21 @@
-# API's:
+### API's:
 
 **1.http://localhost:4040/api/auth/registration:**
-This api create user with 4 parameters. 1. full_name 2. username 3. email 4. password
-It's response :
-'success'
-if user registration successfull otherwise response an object like:
-{
-message: 'user already exist with this email account'
-}'
+This api create user with 4 parameters.
+
+1. full_name
+2. username
+3. email
+4. password
+
+It's response : `'success'` if user registration successfull otherwise response an object like:
+
+```
+    {
+        message: 'user already exist with this email account'
+    }
+```
+
 if any error occurred.
 
 **2.http://localhost:4040/api/auth/login:**
