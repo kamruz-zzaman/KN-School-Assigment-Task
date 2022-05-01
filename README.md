@@ -1,4 +1,4 @@
-### API's:
+# API's:
 
 **1.http://localhost:4040/api/auth/registration:**
 This api create user with 4 parameters. 1. full_name 2. username 3. email 4. password
