@@ -1,7 +1,7 @@
 const auth = require('./auth');
-const user = require('./User');
+const assessment = require('./assessment')
 
 module.exports ={
     auth,
-    user
+    assessment
 }
